@@ -8,26 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Stefa\\.nuget\\packages\\": {}
+    "/Users/farhadba-ali/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git-repository\\datamatiker\\group 9\\Uge43\\Uge43\\Uge43.csproj",
+      "projectUniqueName": "/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/Uge43.csproj",
       "projectName": "Uge43",
-      "projectPath": "D:\\git-repository\\datamatiker\\group 9\\Uge43\\Uge43\\Uge43.csproj",
-      "packagesPath": "C:\\Users\\Stefa\\.nuget\\packages\\",
-      "outputPath": "D:\\git-repository\\datamatiker\\group 9\\Uge43\\Uge43\\obj\\",
+      "projectPath": "/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/Uge43.csproj",
+      "packagesPath": "/Users/farhadba-ali/.nuget/packages/",
+      "outputPath": "/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/farhadba-ali/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
       }
     }
   }
