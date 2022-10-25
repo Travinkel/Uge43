@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caspe\\source\\repos\\Uge43\\Uge43\\Uge43.csproj": {}
+    "C:\\Users\\caspe\\source\\repos\\Uge43\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caspe\\source\\repos\\Uge43\\Uge43\\Uge43.csproj": {
+    "C:\\Users\\caspe\\source\\repos\\Uge43\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caspe\\source\\repos\\Uge43\\Uge43\\Uge43.csproj",
-        "projectName": "Uge43",
-        "projectPath": "C:\\Users\\caspe\\source\\repos\\Uge43\\Uge43\\Uge43.csproj",
+        "projectUniqueName": "C:\\Users\\caspe\\source\\repos\\Uge43\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\caspe\\source\\repos\\Uge43\\API\\API.csproj",
         "packagesPath": "C:\\Users\\caspe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caspe\\Source\\Repos\\Uge43\\Uge43\\obj\\",
+        "outputPath": "C:\\Users\\caspe\\source\\repos\\Uge43\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caspe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -51,6 +57,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
