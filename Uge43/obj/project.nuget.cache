@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oxOJfIEruQec3NjWmhYPcsdGoQaQdGs9iMo3tNUKtvtVyr6uhaC6v1T+dQe7cUZn+S+hpSDZvOTKoaOeZO08tw==",
+  "dgSpecHash": "C1SJsc/u3WiaHkVjwwN4SjnjkC+rWxcD6iFoZ+Q3Wc5Hlt8226ifXRMWKFcyabNbCBSh1KURPMD/QvChpU4TVA==",
   "success": true,
   "projectFilePath": "/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/Uge43.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/farhadba-ali/.nuget/packages/csvhelper/29.0.0/csvhelper.29.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

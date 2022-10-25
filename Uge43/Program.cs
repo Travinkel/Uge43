@@ -1,11 +1,8 @@
-﻿namespace Uge43
-{
-    class Program
-    {
-        internal static void Main(string[] args)
-        {
-            Console.WriteLine("test");
+﻿using Uge43;
 
-        }
-    }
-}
+DataHandler handler = new DataHandler("Måledata-2 år.csv");
+handler.LoadMåledata();
+Console.ReadLine();
+
+        
+    
