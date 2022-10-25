@@ -1,0 +1,32 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5F78779A-D1D5-436B-ADFF-5C795A42AFE6}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Uge43/DataHandler.cs">
+    <Files>
+      <File FileName="Uge43/Program.cs" Line="9" Column="1" />
+      <File FileName="Uge43/Måledata.cs" Line="18" Column="27" />
+      <File FileName="Uge43/DataHandler.cs" Line="10" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Uge43" expanded="True">
+            <Node name="Uge43" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Uge43 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

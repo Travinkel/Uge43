@@ -1,0 +1,15 @@
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/bin/Debug/net6.0/Uge43
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/bin/Debug/net6.0/Uge43.deps.json
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/bin/Debug/net6.0/Uge43.runtimeconfig.json
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/bin/Debug/net6.0/Uge43.dll
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/bin/Debug/net6.0/Uge43.pdb
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/Uge43.csproj.AssemblyReference.cache
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/Uge43.GeneratedMSBuildEditorConfig.editorconfig
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/Uge43.AssemblyInfoInputs.cache
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/Uge43.AssemblyInfo.cs
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/Uge43.csproj.CoreCompileInputs.cache
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/Uge43.dll
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/refint/Uge43.dll
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/Uge43.pdb
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/Uge43.genruntimeconfig.cache
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/ref/Uge43.dll
