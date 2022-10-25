@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using CsvHelper;
 
 namespace Uge43
 {
@@ -15,30 +16,31 @@ namespace Uge43
 
         public void LoadMåledata()
         {
-            
-            using (var reader = new StreamReader("Måledata2år"))
+            using (var reader = new StreamReader("Måledata-2-år.csv"))
             {
                 List<Måledata> itemList = new List<Måledata>();
                 Måledata måledata = new Måledata();
-
-                string date = "yyyy-MM-dd hh,mm";
-                DateTime dateTime;
+                string header = reader.ReadLine();
+                string date = "yyyy-MM-dd HH,mm";
                 string fromDateString, toDateString; 
-                while (!reader.EndOfStream)
+                while (!reader.EndOfStream && reader.ReadLine() != header)
                 {
-                    var line = reader.ReadLine();
-                    var values = line.Split(';');
+                    string line = reader.ReadLine();
+                    string[] values = line.Split(';');
                     fromDateString = values[1];
                     toDateString = values[2];
                    
-                    måledata.MasterID = int.Parse(values[0]);
+                    måledata.MasterID = double.Parse(values[0]);
                     måledata.FromDateTime = DateTime.ParseExact(fromDateString, date, CultureInfo.CurrentCulture);
                     måledata.ToDateTime = DateTime.ParseExact(toDateString, date, CultureInfo.CurrentCulture);
                     måledata.Value = Double.Parse(values[3]);
                     
                     itemList.Add(måledata);
 
-                    Console.WriteLine(int.Parse(values[0]));
+                    foreach (var item in itemList)
+                    {
+                        Console.WriteLine(item);
+                    }
 
                 }
             }

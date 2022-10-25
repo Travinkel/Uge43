@@ -5,12 +5,12 @@ namespace Uge43
 {
     public class Måledata
     {
-        public int MasterID { get; set; }
+        public double MasterID { get; set; }
         public DateTime FromDateTime { get; set; }
         public DateTime ToDateTime { get; set; }
         public double Value { get; set; }
 
-        public Måledata(int masterID, DateTime fromDateTime, DateTime toDateTime, double value)
+        public Måledata(double masterID, DateTime fromDateTime, DateTime toDateTime, double value)
         {
             MasterID = masterID;
             FromDateTime = fromDateTime;

@@ -13,3 +13,5 @@
 /Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/Uge43.pdb
 /Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/Uge43.genruntimeconfig.cache
 /Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/ref/Uge43.dll
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/bin/Debug/net6.0/CsvHelper.dll
+/Users/farhadba-ali/Desktop/Datamatiker/Uge43/Uge43/obj/Debug/net6.0/Uge43.csproj.CopyComplete
