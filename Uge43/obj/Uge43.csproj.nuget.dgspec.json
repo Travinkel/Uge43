@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caspe\\source\\repos\\Uge43\\Uge43\\Uge43.csproj": {}
+    "C:\\Users\\isabe\\source\\repos\\Uge43\\Uge43\\Uge43.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caspe\\source\\repos\\Uge43\\Uge43\\Uge43.csproj": {
+    "C:\\Users\\isabe\\source\\repos\\Uge43\\Uge43\\Uge43.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caspe\\source\\repos\\Uge43\\Uge43\\Uge43.csproj",
+        "projectUniqueName": "C:\\Users\\isabe\\source\\repos\\Uge43\\Uge43\\Uge43.csproj",
         "projectName": "Uge43",
-        "projectPath": "C:\\Users\\caspe\\source\\repos\\Uge43\\Uge43\\Uge43.csproj",
-        "packagesPath": "C:\\Users\\caspe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caspe\\Source\\Repos\\Uge43\\Uge43\\obj\\",
+        "projectPath": "C:\\Users\\isabe\\source\\repos\\Uge43\\Uge43\\Uge43.csproj",
+        "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\isabe\\source\\repos\\Uge43\\Uge43\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\caspe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
