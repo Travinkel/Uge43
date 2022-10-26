@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caspe\\source\\repos\\Uge43\\API\\API.csproj": {}
+    "C:\\Users\\Stefan\\source\\repos\\Uge43\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caspe\\source\\repos\\Uge43\\API\\API.csproj": {
+    "C:\\Users\\Stefan\\source\\repos\\Uge43\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caspe\\source\\repos\\Uge43\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan\\source\\repos\\Uge43\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\caspe\\source\\repos\\Uge43\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\caspe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caspe\\source\\repos\\Uge43\\API\\obj\\",
+        "projectPath": "C:\\Users\\Stefan\\source\\repos\\Uge43\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan\\source\\repos\\Uge43\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\caspe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
