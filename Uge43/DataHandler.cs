@@ -16,10 +16,10 @@ namespace Uge43
 
         public void LoadMåledata()
         {
-            using (var reader = new StreamReader("Måledata-2-år.csv"))
+            using (var reader = new StreamReader("Måledata-2-år.csv"))
             {
-                List<Måledata> itemList = new List<Måledata>();
-                Måledata måledata = new Måledata();
+                List<MeasurementRepo> itemList = new List<MeasurementRepo>();
+                MeasurementRepo måledata = new MeasurementRepo();
                 string header = reader.ReadLine();
                 string date = "yyyy-MM-dd HH,mm";
                 string fromDateString, toDateString; 
@@ -37,12 +37,13 @@ namespace Uge43
                     
                     itemList.Add(måledata);
 
-                    foreach (var item in itemList)
-                    {
-                        Console.WriteLine(item);
-                    }
+                    
 
                 }
+                //foreach (var item in itemList)
+                //{
+                //    Console.WriteLine(item);
+                //}
             }
            
             
