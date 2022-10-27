@@ -7,22 +7,21 @@ namespace Uge43
     public class DataHandler
     {
         public string DataFileName { get; }
-         
+        private MeasurementRepository measurementRepository = new MeasurementRepository();
 
         public DataHandler(string dataFileName)
         {
             this.DataFileName = dataFileName;
         }
 
-        public void LoadMåledata()
+        public void LoadMeasurements()
         {
             using (var reader = new StreamReader("Måledata-2-år.csv"))
             {
-                List<MeasurementRepo> itemList = new List<MeasurementRepo>();
-                MeasurementRepo måledata = new MeasurementRepo();
                 string header = reader.ReadLine();
                 string date = "yyyy-MM-dd HH,mm";
-                string fromDateString, toDateString; 
+                string fromDateString, toDateString;
+
                 while (!reader.EndOfStream && reader.ReadLine() != header)
                 {
                     string line = reader.ReadLine();
@@ -30,26 +29,15 @@ namespace Uge43
                     fromDateString = values[1];
                     toDateString = values[2];
                    
-                    måledata.MasterID = double.Parse(values[0]);
-                    måledata.FromDateTime = DateTime.ParseExact(fromDateString, date, CultureInfo.CurrentCulture);
-                    måledata.ToDateTime = DateTime.ParseExact(toDateString, date, CultureInfo.CurrentCulture);
-                    måledata.Value = Double.Parse(values[3]);
-                    
-                    itemList.Add(måledata);
+                    double masterID = double.Parse(values[0]);
+                    DateTime fromDateTime = DateTime.ParseExact(fromDateString, date, CultureInfo.CurrentCulture);
+                    DateTime toDateTime = DateTime.ParseExact(toDateString, date, CultureInfo.CurrentCulture);
+                    double value = Double.Parse(values[3]);
 
-                    
-
+                    measurementRepository.Create(new Measurement(masterID, fromDateTime, toDateTime, value));
                 }
-                //foreach (var item in itemList)
-                //{
-                //    Console.WriteLine(item);
-                //}
+                measurementRepository.ReadAll();                
             }
-           
-            
-                
-               
-            
         }
         /*
          *  itemList.Add(new Måledata()
@@ -63,4 +51,3 @@ namespace Uge43
          */
     }
 }
-

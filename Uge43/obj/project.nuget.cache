@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "h3WESABoVZ5YG7AD/US1Kpfy3XrXcNp6I507dU+NrrETZfEtCAn3w+xzen0ojSg+dhCEMhuxcw7tVAzJLHbL8A==",
+  "dgSpecHash": "lNmBP0nE41a2mWLFXCF646a0tFy8UlonHE2vdM2lZO3jOEkskLU9MkgAFbczLf0gWAjYJ9jKv2EDnVI0YrI0ug==",
   "success": true,
-  "projectFilePath": "D:\\Repo\\group 9\\Uge43\\Uge43\\Uge43.csproj",
+  "projectFilePath": "D:\\git-repository\\datamatiker\\group 9\\Uge43\\Uge43\\Uge43.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Shadow\\.nuget\\packages\\csvhelper\\29.0.0\\csvhelper.29.0.0.nupkg.sha512"
+    "C:\\Users\\Stefa\\.nuget\\packages\\csvhelper\\29.0.0\\csvhelper.29.0.0.nupkg.sha512"
   ],
   "logs": []
 }

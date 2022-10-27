@@ -49,19 +49,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Shadow\\.nuget\\packages\\": {}
+    "C:\\Users\\Stefa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repo\\group 9\\Uge43\\Uge43\\Uge43.csproj",
+      "projectUniqueName": "D:\\git-repository\\datamatiker\\group 9\\Uge43\\Uge43\\Uge43.csproj",
       "projectName": "Uge43",
-      "projectPath": "D:\\Repo\\group 9\\Uge43\\Uge43\\Uge43.csproj",
-      "packagesPath": "C:\\Users\\Shadow\\.nuget\\packages\\",
-      "outputPath": "D:\\Repo\\group 9\\Uge43\\Uge43\\obj\\",
+      "projectPath": "D:\\git-repository\\datamatiker\\group 9\\Uge43\\Uge43\\Uge43.csproj",
+      "packagesPath": "C:\\Users\\Stefa\\.nuget\\packages\\",
+      "outputPath": "D:\\git-repository\\datamatiker\\group 9\\Uge43\\Uge43\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Shadow\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -108,7 +108,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
