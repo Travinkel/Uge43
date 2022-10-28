@@ -47,7 +47,6 @@ namespace Uge43
                             handler.LoadMeasurements();
                             break;
                         case 1:
-                            handler.LoadMeasurements();
                             break;
                         case 2:
                             abort = !abort;
@@ -57,7 +56,7 @@ namespace Uge43
                             break;
                     }
                 }
-                Console.SetCursorPosition(0, 0);
+                Console.Clear();
                 menu.Show(option);
             } while (!abort);
         }

@@ -13,7 +13,7 @@ namespace Uge43
             {
                 Console.WriteLine(measurement);
             }
-            Console.WriteLine(Measurements.Count);
+            //Console.WriteLine(Measurements.Count);
         }
 
         public Measurement GetByDate(DateTime date)

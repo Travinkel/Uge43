@@ -27,7 +27,7 @@ namespace Uge43
             Console.SetWindowSize(130, 30);
 
             menuItems[0] = new MenuItem("Read All Measurements");
-            menuItems[1] = new MenuItem("Read Measurements by Date");
+            menuItems[1] = new MenuItem("Read Measurements by Date (NYI)");
             menuItems[2] = new MenuItem("Quit");
 
             Console.ForegroundColor = ConsoleColor.Blue;
